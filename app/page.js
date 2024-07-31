@@ -121,7 +121,7 @@ export default function Home() {
    
     <Box width = "100vw" height = "100vh" display = {'flex'} alignItems={'center'} justifyContent={'center'} flexDirection={'column'} gap = {2}   >
       <Box justifyContent={"space-between"}>
-      <TextField id="outlined-basic" label="Add" variant="outlined" minHeight = "10px" value = {searchQuery} onChange={e => setSearchQuery(e.target.value)}   sx={{
+      <TextField id="outlined-basic" label="Search" variant="outlined" minHeight = "10px" value = {searchQuery} onChange={e => setSearchQuery(e.target.value)}   sx={{
       width: '800px',
       minHeight: '10px'
     }}/>
